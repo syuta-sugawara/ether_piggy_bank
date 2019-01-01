@@ -10,6 +10,7 @@
 * metamask
 * Ganache version 1.2.1
 * node v8.12.0 
+* npm v6.4.1
 * Truffle v5.0.0  
 * Solidity v0.5.0 
 * web3.js@1.0.0-beta.36 
@@ -63,7 +64,8 @@ $ npm run dev
 まずmetamaskへganache内のアカウントのインポートと
 custome RPCで http://127.0.0.1:7545 へ接続してください。
 
-metamaskでアカウントを変えた場合はその都度
+metamaskでアカウントをインポートするなどを行い、  
+アカウントを変えた場合はその都度
 ブラウザでリロードを行ってください。
 
 下記の手順でアプリケーションが使用可能です。
