@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>PiggyBank front-end</title>
+        <script language="javascript" type="text/javascript" src="./piggybank_abi.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>PiggyBank</h1>
+        <form>
+            <div class="form-group">
+                <label>name a box id</label>
+                <input type="number" class="form-control" id="boxId">
+            </div>
+            <div class="form-group">
+                <label>decide target figure</label>
+                <input type="number" class="form-control" id="targetFigure">
+            </div>
+            <button onclick="create()" class="btn btn-primary" >Create a piggy bank</button>
+        </form>
+        <form>
+            <div class="form-group">
+                <label>which box?</label>
+                <input type="number" class="form-control" id="whichBox">
+            </div>
+            <div class="form-group">
+                <label>how much do you wanna deposit?</label>
+                <input type="number" class="form-control" id="howMuch">
+            </div>
+            <button onclick="deposit()" class="btn btn-primary">deposit money </button>
+        </form>
+        <form>
+                <div class="form-group">
+                    <label>choose the box which you'd like to withdraw from</label>
+                    <input type="numberc" class="form-control" id="chooseBox">
+                </div>
+                <button onclick="withdrawMoney()" class="btn btn-primary">withdraw</button>
+        </form>
+        <script src="./index.js"></script>
+    </body>
+</html>
