@@ -68,25 +68,25 @@ metamaskでアカウントを変えた場合はその都度
 
 下記の手順でアプリケーションが使用可能です。
 
-１、貯金箱を作る
+１、貯金箱を作る  
 name a box id欄にboxidを指定し
-decide target figureで目標額を指定。
+decide target figureで目標額を指定。  　　
 その後create a piggy bank　のボタンをクリック
 
-２、貯金箱に入金
-which box?欄でboxidを指定。
-how much do you wanna deposit?欄でいくら入金する指定。
+２、貯金箱に入金  
+which box?欄でboxidを指定。  　
+how much do you wanna deposit?欄でいくら入金する指定。  
 deposit money ボタンをクリック
 
-３,出金
-boxidを指定し出金。
+３,出金  
+boxidを指定し出金。　　
 
 他人のboxへ入金できないこと、
-一度出金を行ったboxへ再度入金できないことを確認してください。
+一度出金を行ったboxへ再度入金できないことを確認してください。  　　
 
 
 下記のエラーがでた場合は
-アカウントをリセットしてください
+アカウントをリセットしてください　　
 Error: the tx doesn't have the correct nonce. account has nonce of: 0 tx has nonce of: 2
 
 
