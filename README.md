@@ -2,7 +2,8 @@
 
 # Piggy_bank
 
-### REQUIREMENTS
+
+## REQUIREMENTS
 
 このアプリケーションでは下記のtoolを使用します.
 
@@ -22,7 +23,7 @@ https://truffleframework.com/ganache
 https://metamask.io/
 
 
-### Installation
+## Installation
 
 始めに下記をインストールしてください
 
@@ -36,10 +37,11 @@ $  npm uninstall -g truffle // If you already have truffle installed
 $  npm install -g truffle@5.0.0
 ```
 
-### Development
+
+## Development
 
 git clone後、
-ganacheを起動し下記を行ってください。
+ganacheを起動し、下記を行ってください。
 
 ```sh
 $ npm install
@@ -55,10 +57,11 @@ src/index.jsの14行目にあるpiggyBankAddressの変数に格納し直して�
 $ npm run dev
 ```
 
-####  Usage(　動作確認　) 
+
+##  Usage(　動作確認　) 
 
 まずmetamaskへganache内のアカウントのインポートと
-custome RPCでHTTP://127.0.0.1:7545へ接続してください。
+custome RPCで http://127.0.0.1:7545 へ接続してください。
 
 metamaskでアカウントを変えた場合はその都度
 ブラウザでリロードを行ってください。
@@ -86,5 +89,6 @@ boxidを指定し出金。
 アカウントをリセットしてください
 Error: the tx doesn't have the correct nonce. account has nonce of: 0 tx has nonce of: 2
 
-### Author
+
+## Author
 syuta sugawara
