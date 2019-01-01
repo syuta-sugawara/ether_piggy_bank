@@ -16,7 +16,9 @@
 * bootstrap v4.1.3 
 
 Ganacheとmetamaskは事前にインストールしてください。
+
 https://truffleframework.com/ganache
+
 https://metamask.io/
 
 
