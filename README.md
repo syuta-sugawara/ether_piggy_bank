@@ -70,11 +70,12 @@ metamaskでアカウントを変えた場合はその都度
 
 １、貯金箱を作る  
 name a box id欄にboxidを指定し
-decide target figureで目標額を指定。  　　
+decide target figureで目標額を指定。  
 その後create a piggy bank　のボタンをクリック
 
+
 ２、貯金箱に入金  
-which box?欄でboxidを指定。  　
+which box?欄でboxidを指定。  
 how much do you wanna deposit?欄でいくら入金する指定。  
 deposit money ボタンをクリック
 
@@ -86,7 +87,7 @@ boxidを指定し出金。　　
 
 
 下記のエラーがでた場合は
-アカウントをリセットしてください　　
+アカウントをリセットしてください  
 Error: the tx doesn't have the correct nonce. account has nonce of: 0 tx has nonce of: 2
 
 
